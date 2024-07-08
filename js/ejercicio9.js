@@ -8,4 +8,8 @@ document.write(`<p>${i} multiplo de 4</p>`)
     }
     else
     document.write(`<p>${i}</p>`)
+    if(i % 5 === 0){
+        document.write("--------------")
+    }
+
 }
