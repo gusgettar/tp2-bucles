@@ -3,31 +3,31 @@ let nota = parseInt(prompt("Ingrese una nota"))
 switch(true){
 
     case(nota<=2):
-    document.write("<p>Muy deficiente</p>")
+    alert("Muy deficiente")
     break
 
     case(nota<=4):
-    document.write("<p>Insuficiente</p>")
+    alert("Insuficiente")
     break
 
     case(nota<=6):
-    document.write("<p>Suficiente</p>")
+    alert("Suficiente")
     break
 
     case(nota === 7):
-    document.write("<p>Bien</p>")
+    alert("Bien")
     break
 
     case(nota<=9):
-    document.write("<p>Notable</p>")
+    alert("Notable")
     break
 
     case(nota===10):
-    document.write("<p>Sobresaliente</p>")
+    alert("Sobresaliente")
     break
 
     default:
-        document.write("introduce un numero valido")
+        alert("introduce un numero valido")
 
 
     
